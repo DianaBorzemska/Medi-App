@@ -10,6 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediApp">
         <activity
+            android:name=".Medi_Predict"
+            android:exported="true" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Ratings_and_reviews_screen"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="true" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
