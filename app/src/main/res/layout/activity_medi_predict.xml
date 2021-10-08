@@ -6,4 +6,124 @@
     android:layout_height="match_parent"
     tools:context=".Medi_Predict">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="202dp"
+            android:layout_height="72dp"
+            android:text="PREDICT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.809" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="303dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="81dp"
+            android:text="The risk of you contracting these illnesses"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="206dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="12dp"
+            android:text="Disease placeholder"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="206dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="20dp"
+            android:text="Disease placeholder"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="206dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="16dp"
+            android:text="Disease placeholder"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="206dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="64dp"
+            android:text="Disease placeholder"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="116dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="12dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="116dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumber3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="116dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumber4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="116dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="64dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toEndOf="@+id/textView7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
