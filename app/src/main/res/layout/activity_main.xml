@@ -44,37 +44,37 @@
             app:layout_constraintVertical_bias="0.638">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/save_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="Update Records" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/predict_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="Medi-Predict" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/insurance_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="Insurance premium" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/history_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="MEdical History" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/support_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="Support" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/prof_btn"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="Request professional" />

@@ -10,12 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediApp">
         <activity
+            android:name=".HistorySubmit"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryContinue"
+            android:exported="false" />
+        <activity
             android:name=".Medi_Predict"
             android:exported="true" />
         <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="true"
-            android:label="@string/title_activity_login" />
+            android:name=".Record_user"
+            android:exported="true" />
+        <activity
+            android:name=".Insurance"
+            android:exported="true" />
+        <activity
+            android:name=".MedHistory"
+            android:exported="true" />
+        <activity
+            android:name=".Professional"
+            android:exported="true" />
+        <activity
+            android:name=".Support"
+            android:exported="true" />
         <activity
             android:name=".Ratings_and_reviews_screen"
             android:exported="true" />
