@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/st_depression_exercise_induced"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/excercise_induced_angina"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -53,7 +53,7 @@
         app:layout_constraintBottom_toTopOf="@+id/st_depression_exercise_induced"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/max_heart_rate"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -76,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/resting_ecg"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -111,7 +111,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/fasting_blood_sugar"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -134,7 +134,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/serum_cholestrol"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -157,7 +157,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/resting_blood_pressure"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -168,7 +168,7 @@
         app:layout_constraintBottom_toTopOf="@+id/serum_cholestrol"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/chest_pain_type"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -203,7 +203,7 @@
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/sex"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -239,7 +239,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
+    <TextView
         android:id="@+id/age"
         android:layout_width="150dp"
         android:layout_height="40dp"

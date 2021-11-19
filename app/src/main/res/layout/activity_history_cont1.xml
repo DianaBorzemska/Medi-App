@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/diabetesPedigreeFunction"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -44,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/bmi"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -70,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/insulin"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -96,7 +96,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/skinThickness"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -109,7 +109,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView70" />
 
-    <EditText
+    <TextView
         android:id="@+id/glucose"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -148,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/atlas_scaling_factor"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -176,7 +176,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
 
-    <EditText
+    <TextView
         android:id="@+id/norm_brain_vol"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -187,7 +187,7 @@
         app:layout_constraintBottom_toTopOf="@+id/atlas_scaling_factor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView70"
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
 

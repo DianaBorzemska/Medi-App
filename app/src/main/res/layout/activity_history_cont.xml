@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/estimated_tot_intracranial_vol"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -40,7 +40,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView79"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/clinical_dementia_rating"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -64,7 +64,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView78"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/mental_state_exam"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -88,7 +88,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView77"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/social_status"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -112,7 +112,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView75"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/education_years"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -136,7 +136,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView74"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/mri_delay"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -160,7 +160,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView73"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/pregnancies"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -184,7 +184,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView72"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/thalassemia"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -208,7 +208,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView71"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/major_vessels_num"
         android:layout_width="150dp"
         android:layout_height="40dp"
@@ -221,7 +221,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView70" />
 
-    <EditText
+    <TextView
         android:id="@+id/peak_ex_st"
         android:layout_width="150dp"
         android:layout_height="40dp"
