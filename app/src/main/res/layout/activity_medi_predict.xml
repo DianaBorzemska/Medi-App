@@ -9,8 +9,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/heartDiseasePredictionAccuracy"
@@ -32,21 +34,23 @@
             android:id="@+id/textView33"
             android:layout_width="206dp"
             android:layout_height="49dp"
+            android:layout_marginStart="16dp"
             android:layout_marginBottom="20dp"
             android:elegantTextHeight="true"
             android:text="Heart Disease prediction accuracy"
             app:layout_constraintBottom_toTopOf="@+id/textView41"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView41"
             android:layout_width="206dp"
             android:layout_height="49dp"
+            android:layout_marginStart="16dp"
             android:layout_marginBottom="188dp"
             android:elegantTextHeight="true"
             android:text="Alzheimer's prediction accuracy"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/diabetesPredictionAccuracy"
@@ -67,15 +71,16 @@
             android:id="@+id/alzheimersPredictionAccuracy"
             android:layout_width="116dp"
             android:layout_height="49dp"
+            android:layout_marginBottom="188dp"
             android:elegantTextHeight="true"
             android:ems="10"
             android:inputType="number"
             android:text="89.33%"
             android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toEndOf="@+id/textView6"
-            tools:layout_editor_absoluteY="492dp" />
+            app:layout_constraintStart_toEndOf="@+id/textView6" />
 
         <Button
             android:id="@+id/predictButton"
@@ -140,10 +145,10 @@
             android:layout_width="116dp"
             android:layout_height="49dp"
             android:layout_marginTop="144dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="21dp"
             android:ems="10"
             android:inputType="number"
-            app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+            app:layout_constraintBottom_toTopOf="@+id/heartDIseasePrediction"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -177,11 +182,12 @@
             android:id="@+id/textView32"
             android:layout_width="206dp"
             android:layout_height="49dp"
+            android:layout_marginStart="16dp"
             android:layout_marginBottom="20dp"
             android:elegantTextHeight="true"
             android:text="Diabetes prediction accuracy"
             app:layout_constraintBottom_toTopOf="@+id/textView33"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

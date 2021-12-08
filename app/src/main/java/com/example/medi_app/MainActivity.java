@@ -7,7 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import com.google.firebase.firestore.FirebaseFirestore;
+
+
 public class MainActivity extends AppCompatActivity {
+
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+
     Button updateBtn,predictBtn, insuranceBtn, historyBtn,supportBtn,profBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
