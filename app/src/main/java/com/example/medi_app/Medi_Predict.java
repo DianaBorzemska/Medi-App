@@ -16,6 +16,7 @@ import java.io.IOException;
 
 public class Medi_Predict extends AppCompatActivity {
 TextView diaPredict, alzheimersPredict, heartPrediction;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
