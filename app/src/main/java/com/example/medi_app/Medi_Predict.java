@@ -51,8 +51,6 @@ String  age,depression, agina, heart_rate, resting_ecg
 
 String prediction, sex1;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -222,7 +220,6 @@ String prediction, sex1;
                     System.out.println(heartexception);
                     System.out.println("Heart disease problem");
                 }
-                documentReference.set(docData, SetOptions.merge());
                 }
         });
         }
