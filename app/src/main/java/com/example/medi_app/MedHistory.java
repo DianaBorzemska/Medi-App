@@ -10,25 +10,15 @@ import android.widget.Button;
 
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
-import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.firestore.Query;
-
-import java.security.spec.ECField;
 
 public class MedHistory extends AppCompatActivity {
     TextView depression, agina, heart_rate, resting_ecg
@@ -53,7 +43,7 @@ public class MedHistory extends AppCompatActivity {
         blood_pressure = findViewById(R.id.resting_blood_pressure);
         chest_pain = findViewById(R.id.chest_pain_type);
         sex = findViewById(R.id.sex);
-        age = findViewById(R.id.age);
+        age = findViewById(R.id.dob);
         user_name = findViewById(R.id.user);
 
 
@@ -61,11 +51,11 @@ public class MedHistory extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
 
 
-        DocumentReference documentReference = fStore.collection("Add_Patient").document("8rqReQe5VyCW58Dg9wv2");
+        DocumentReference documentReference = fStore.collection("Add_Patient").document("dsvrw42o5llBnvkTUxGB");
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
-                age.setText(documentSnapshot.getString("Age"));
+                age.setText(documentSnapshot.getString("DOB"));
                 user_name.setText(documentSnapshot.getString("FirstName"));
                 chest_pain.setText(documentSnapshot.getString("ChestPainType"));
                 blood_pressure.setText(documentSnapshot.getString("BloodPressure"));
@@ -75,7 +65,7 @@ public class MedHistory extends AppCompatActivity {
                 heart_rate.setText(documentSnapshot.getString("MaxHeartRate"));
                 agina.setText(documentSnapshot.getString("Exerciseinducedangina"));
                 depression.setText(documentSnapshot.getString("STdepressioninducedbyexerciserelativetorest"));
-
+                sex.setText(documentSnapshot.getString("sex"));
 
             }
         });

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         updateBtn.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                Intent send = new Intent(MainActivity.this, Record_user.class);
+                Intent send = new Intent(MainActivity.this, Ratings_and_reviews_screen.class);
                 startActivity(send);   }
         });
         predictBtn.setOnClickListener(new View.OnClickListener() {

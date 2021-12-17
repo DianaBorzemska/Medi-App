@@ -25,6 +25,7 @@
             android:layout_width="201dp"
             android:layout_height="226dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo_placeholder" />
@@ -44,40 +45,40 @@
             app:layout_constraintVertical_bias="0.638">
 
             <Button
-                android:id="@+id/save_btn"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Update Records" />
-
-            <Button
                 android:id="@+id/predict_btn"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:text="Medi-Predict" />
 
             <Button
                 android:id="@+id/insurance_btn"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:text="Insurance premium" />
 
             <Button
                 android:id="@+id/history_btn"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:text="MEdical History" />
 
             <Button
                 android:id="@+id/support_btn"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:text="Support" />
 
             <Button
                 android:id="@+id/prof_btn"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:text="Request professional" />
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Review" />
         </LinearLayout>
 
         <TextView
