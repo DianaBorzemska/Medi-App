@@ -58,7 +58,7 @@ public class MedHistory extends AppCompatActivity {
                 age.setText(documentSnapshot.getString("DOB"));
                 user_name.setText(documentSnapshot.getString("FirstName"));
                 chest_pain.setText(documentSnapshot.getString("ChestPainType"));
-                blood_pressure.setText(documentSnapshot.getString("BloodPressure"));
+                blood_pressure.setText(documentSnapshot.getString("RestingBloodPressure"));
                 serum.setText(documentSnapshot.getString("SerumCholesterol"));
                 blood_sugar.setText(documentSnapshot.getString("FastingBloodSugar"));
                 resting_ecg.setText(documentSnapshot.getString("RestingECG"));

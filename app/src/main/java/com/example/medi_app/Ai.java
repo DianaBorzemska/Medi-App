@@ -14,6 +14,7 @@ import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
 import java.io.IOException;
+import java.nio.ByteBuffer;
 import java.util.Arrays;
 
 public class Ai extends AppCompatActivity {
@@ -23,14 +24,14 @@ public class Ai extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
     }
-    public String predictalzheimers(Context context, float[] intArray) {
+    public String predictalzheimers(Context context, ByteBuffer buff) {
         try {
             ModelAlzheimers model = ModelAlzheimers.newInstance(context);
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1,10}, DataType.FLOAT32);
             //TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(intArray, DataType.FLOAT32);
-            inputFeature0.loadArray(intArray);
+            inputFeature0.loadBuffer(buff);
             // Runs model inference and gets result.
             ModelAlzheimers.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
